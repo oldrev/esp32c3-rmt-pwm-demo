@@ -45,8 +45,8 @@ This project implements a PWM generation solution using ESP32's RMT (Remote Cont
 #### Clone repository:
 
 ```bash
-   git clone https://github.com/oldrev/esp32c3-rmt-pwm-demo.git
-   cd esp32c3-rmt-pwm-demo.git
+git clone https://github.com/oldrev/esp32c3-rmt-pwm-demo.git
+cd esp32c3-rmt-pwm-demo.git
 ```
 
 #### Build and flash:
@@ -60,11 +60,12 @@ idf.py build
 bash
 idf.py flash monitor
 ```
+
 Observe PWM wave pattern (cycle time: 10 seconds)
 
 ## License
 
-Distributed under the Apache 2.0 License. See LICENSE for more information.
+Distributed under the Apache 2.0 License. See [LICENSE](LICENSE) for more information.
 
 ## Contributing
 
